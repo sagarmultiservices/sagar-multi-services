@@ -1,20 +1,29 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Sagar Multi Services | Online Applications",
-  description: "Official service request portal for Sagar Multi Services.",
+  title: "Sagar Multi Services",
+  description: "Official Application & Service Portal",
+  manifest: "/sagar-multi-services/manifest.json",
+  themeColor: "#2563eb",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Sagar Services",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between">
+      <head>
+        <link rel="manifest" href="/sagar-multi-services/manifest.json" />
+        <link rel="apple-touch-icon" href="/sagar-multi-services/icon-192.png" />
+      </head>
+      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
         <Navbar />
-        <main className="container mx-auto px-4 py-8 flex-grow">
-          {children}
-        </main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
