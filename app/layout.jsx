@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Sagar Multi Services",
   description: "Official Application & Service Portal",
-  manifest: "/sagar-multi-services/manifest.json",
+  manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
