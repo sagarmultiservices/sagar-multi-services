@@ -5,7 +5,6 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Sagar Multi Services",
   description: "Official Application & Service Portal",
-  manifest: "/manifest.json",
 };
 
 export const viewport = {
@@ -15,6 +14,9 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/sagar-multi-services/manifest.json" />
+      </head>
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
         <Navbar />
         <main className="flex-grow">{children}</main>
