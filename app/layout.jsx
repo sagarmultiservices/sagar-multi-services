@@ -6,12 +6,15 @@ export const metadata = {
   title: "Sagar Multi Services",
   description: "Official Application & Service Portal",
   manifest: "/sagar-multi-services/manifest.json",
-  themeColor: "#2563eb",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
     title: "Sagar Services",
   },
+};
+
+export const viewport = {
+  themeColor: "#2563eb",
 };
 
 export default function RootLayout({ children }) {
