@@ -1,6 +1,6 @@
 {
   "name": "Sagar Multi Services",
-  "short_name": "Sagar Services",
+  "short_name": "Sagar Multi Services",
   "description": "Official Application & Service Portal",
   "start_url": "/sagar-multi-services/",
   "display": "standalone",
