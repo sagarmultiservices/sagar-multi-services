@@ -6,11 +6,6 @@ export const metadata = {
   title: "Sagar Multi Services",
   description: "Official Application & Service Portal",
   manifest: "/manifest.json",
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: "default",
-    title: "Sagar Multi Services",
-  },
 };
 
 export const viewport = {
