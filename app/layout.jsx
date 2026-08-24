@@ -9,7 +9,7 @@ export const metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Sagar Services",
+    title: "Sagar Multi Services",
   },
 };
 
