@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/sagar-multi-services',
 };
 
 module.exports = nextConfig;
