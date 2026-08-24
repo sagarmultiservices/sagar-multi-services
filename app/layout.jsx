@@ -17,10 +17,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="/sagar-multi-services/manifest.json" />
-        <link rel="apple-touch-icon" href="/sagar-multi-services/icon-192.png" />
-      </head>
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
         <Navbar />
         <main className="flex-grow">{children}</main>
